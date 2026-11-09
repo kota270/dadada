@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auto_totem",
+  "version": "${version}",
+  "name": "Auto Totem Test",
+  "description": "Client-side Auto Totem test utility for authorized private-server testing.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fr.autototem.AutoTotemClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
